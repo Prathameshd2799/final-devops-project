@@ -3,7 +3,7 @@ pipeline {
  
   environment {
     TF_DIR = 'application/terraform_ec2' // path to your Terraform code
-    TF_VARS = 'application/terraform_ec2/terraform.tfvars'
+    TF_VARS = 'terraform.tfvars'
   }
  
   stages {
